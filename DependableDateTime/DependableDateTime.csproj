@@ -39,6 +39,7 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateTimeHunter.cs" />
     <Compile Include="DateTimeOffsetProvider.cs" />
     <Compile Include="IDateTimeOffSet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
