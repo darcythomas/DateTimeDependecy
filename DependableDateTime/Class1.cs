@@ -7,5 +7,6 @@ namespace DependableDateTime
 {
     public class Class1
     {
+        public bool Truth => true;
     }
 }
