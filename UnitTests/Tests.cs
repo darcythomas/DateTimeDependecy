@@ -15,7 +15,14 @@ namespace UnitTests
         public void TestBasics()
         {
             true.Should().BeTrue();
-            (new Class1()).Truth.Should().BeTrue();
+        }
+        [Fact]
+        public void CanGetDateTimeOffsetNow()
+        {
+            IDateTimeOffSet sut = new DateTimeOffsetProvider();
+
+            sut.Now.ShouldBeEquivalentTo(DateTimeOffset.Now);
+            sut.UtcNow.ShouldBeEquivalentTo(DateTimeOffset.UtcNow);
         }
     }
 }
