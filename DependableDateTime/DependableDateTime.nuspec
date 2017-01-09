@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DextroLevo.DependableDateTime</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Darcy Thomas</authors>
+    <owners>Darcy Thomas</owners>
+    <licenseUrl>https://github.com/darcythomas/DateTimeDependecy/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/darcythomas/DateTimeDependecy/</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An abstraction of date &amp; time so that tight coupling to the current time can be removed.</description>
+    <releaseNotes>Init.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>DateTime DateTimeOffset DependencyInjection</tags>
+  </metadata>
+</package>
